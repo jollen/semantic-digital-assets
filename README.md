@@ -10,11 +10,13 @@ Add ```bitmark-assets.js``` in your web page.
 <script src="bitmark-assets.js"></script>
 ```
 
-And link a photo copyrighted through bitmark blockchain.
+And link a photo copyrighted through the bitmark blockchain.
 
 ```
 <span resource="424d4b302cc97d8536a9c790b7b6c15f3d3503a31350344cefd1ec487df53a35ccab3beb" type="image"></span>
 ```
+
+The photo will be downloaded over the p2p network and display on the web page if you own the image's property.
 
 ## Future work
 
