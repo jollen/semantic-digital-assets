@@ -13,7 +13,7 @@ Add ```bitmark-assets.js``` in your web page.
 And link a photo copyrighted through bitmark blockchain.
 
 ```
-<span property="" type=""></span>
+<span resource="424d4b302cc97d8536a9c790b7b6c15f3d3503a31350344cefd1ec487df53a35ccab3beb" type="image"></span>
 ```
 
 ## Future work
@@ -21,9 +21,9 @@ And link a photo copyrighted through bitmark blockchain.
 To use the semantics web for bitmark digital assets management.
 
 ```
-<div>
-	<bitmark>
-		<asset></asset>
+<rdf:RDF>
+	<rdf:Description about="http://bitmark.com/asset/image">
+		<p:image resource="424d4b302cc97d8536a9c790b7b6c15f3d3503a31350344cefd1ec487df53a35ccab3beb" />
 	</bitmark>
-</div>
+</rdf:RDF>
 ```
