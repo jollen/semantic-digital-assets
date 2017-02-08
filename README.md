@@ -24,6 +24,6 @@ To use the semantics web for bitmark digital assets management.
 <rdf:RDF>
 	<rdf:Description about="http://bitmark.com/asset/image">
 		<p:image resource="424d4b302cc97d8536a9c790b7b6c15f3d3503a31350344cefd1ec487df53a35ccab3beb" />
-	</bitmark>
+	</rdf:Description>
 </rdf:RDF>
 ```
